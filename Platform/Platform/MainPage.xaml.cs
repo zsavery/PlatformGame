@@ -1,4 +1,4 @@
-﻿namespace Platform
+namespace Platform
 {
     public partial class MainPage : ContentPage
     {
@@ -44,15 +44,28 @@
 
             scoreLabel = new Label()
             {
-                //solution
+                Text = "Score: " + score,
+                FontSize = 30,
+                ZIndex = 1,
+                TextColor = Colors.White,
+                Margin = new Thickness(10),
+                VerticalOptions = LayoutOptions.Center,
+                HorizontalOptions = LayoutOptions.Center
             };
 
             levelLabel = new Label()
             {
-                //solution
+                Text = "Level: " + level,
+                FontSize = 30,
+                ZIndex = 1,
+                TextColor = Colors.White,
+                Margin = new Thickness(10),
+                VerticalOptions = LayoutOptions.Center,
+                HorizontalOptions = LayoutOptions.Center
             };
 
             //delay
+
             //add score label
             //delay
             //add level label
